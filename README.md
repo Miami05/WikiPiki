@@ -51,13 +51,13 @@ WikiPiki/
 ![Main Menu](images/main-menu.jpeg)
 
 ### Gameplay
-![Question Example](screenshots/gameplay.jpg)
+![Question Example](images/gameplay.jpg)
 
 ### Two-Player Mode
-![Two-Player Gameplay](screenshots/two-player.jpg)
+![Two-Player Gameplay](imagess/two-player.jpg)
 
 ### Leaderboard
-![High Scores](screenshots/leaderboard.jpg)
+![High Scores](images/leaderboard.jpg)
 
 
 ## Customization & Extensions
