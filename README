@@ -1,0 +1,56 @@
+# FUNCTIONALITY FRAMEWORK
+
+0. Player Enters Game
+1. Player Gets Prompted to START GAME
+        -TOTAL_SCORE set to 0
+2. From list of all available categories, GENERATE list of NUM categories for user to choose
+        -Done via Wikiepdia API
+3. Player selects a CATEGORY from shown selection
+4. Based on CATEGORY - WIKIPEDIA API GET requests ARTICLES
+5. Based on WIKIPEDIA ARTICLE SUMMARIES - GENERATE QUESTIONS
+    -Generated questions return with correct and wrong answers
+6. GENERATED QUESTIONS (one at a time) - Player ANSWERS Question
+7. ANSWER is either CORRECT or INCORRECT
+        -compare user input to returned answer
+        -if CORRECT: SCORE Gets ADDED to the TOTAL_SCORE
+        -if INCORRECT: no score added
+        -STREAKS:
+            -every set number of answered questions in a row generate a streak which gives bonus points
+            -wrong answers resets the streak to 0
+8. All questions DONE, then user is how SCORE:
+        -if user is in top 10 of difficulty:
+            prompt user to enter 3 letter initials, save updated list with NAME and SCORE
+            show show LEADERBOARDS
+9. PROMPT CHOICE: REPLAY or QUIT
+        -if replay, goto 1
+        -if quit, print message and quit
+
+
+MULTIPLAYER:
+    - PLAYERS HAVE A CHOICE OF PLAYING THE GAME WITH 2 PLAYERS LOCALLY:
+        -Multiplayer mode is identical to singleplayer with feedback on which player has done better in a round
+
+# CODE SKELETON:
+
+│── main.py                 # Main Program
+│── wikipedia_client.py     # Everything related to wikipedia API
+│── question_generator.py   # OpenAI to generate questions
+│── game.py                 # Game steps and logic
+│── highscores.py           # highscore board
+│── utils.py                # common helper functions
+
+
+# FEATURES
+
+    # MUST HAVE:
+        -WIKIPEDIA API library integration
+        -GENERATE QUESTIONS based on difficulty
+        -TEXT BASED and ASCII(picture) questions
+        -SAVE SCORES (done)
+        -SHOW LEADERBOARD (done)
+    # SHOULD HAVE
+        -Answering Streaks (done)
+        -Option to quit any time
+    # CONSIDER
+        - UNIQUE NAMES?
+        -!!!EVERYTHING NEW GOES HERE!!!
