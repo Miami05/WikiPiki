@@ -48,16 +48,16 @@ WikiPiki/
 ## Screenshots
 
 ### Main Menu
-![Main Menu](images/main-menu.jpeg)
+Main Menu(images/main-menu.jpeg)
 
 ### Gameplay
-![Question Example](images/gameplay.jpeg)
+Question Example(images/gameplay.jpeg)
 
 ### Two-Player Mode
-![Two-Player Gameplay](images/two-player.jpeg)
+Two-Player Gameplay(images/two-player.jpeg)
 
 ### Leaderboard
-![High Scores](images/leaderboard.jpeg)
+High Scores(images/leaderboard.jpeg)
 
 
 ## Customization & Extensions
