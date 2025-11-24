@@ -15,7 +15,7 @@ A terminal trivia and quiz game built in Python that pulls facts from Wikipedia 
 
 1. **Clone the repository:**
 ```bash
-git clone (https://github.com/Miami05/WikiPiki.git
+git clone https://github.com/Miami05/WikiPiki.git
 ```
 ```bash
 cd WikiPiki
