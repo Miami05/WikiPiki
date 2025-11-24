@@ -48,7 +48,7 @@ WikiPiki/
 ## Screenshots
 
 ### Main Menu
-![](images/main-menu.jpeg)
+![Main Menu](images/main-menu.jpeg)
 
 ### Gameplay
 Question Example(images/gameplay.jpeg)
