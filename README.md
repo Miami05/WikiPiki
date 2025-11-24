@@ -54,7 +54,7 @@ WikiPiki/
 ![Question Example](images/gameplay.jpeg)
 
 ### Two-Player Mode
-![Two-Player Gameplay](images/two-player.jpeg)
+![Two-Player Gameplay](images/two_player.jpeg)
 
 ### Leaderboard
 ![High Scores](images/leaderboard.jpeg)
